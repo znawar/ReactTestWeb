@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: #151515;
+  color: #9ca3af;
+  padding:40px;
+}
+h2{
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+}
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+} 
+.Card{
+  border:#877a7a solid 1px;
+  border-radius: 8px; 
+  padding: 16px;
+  margin: 16px;
+  background-color: #877a7a;
+ min-height: 50px;
+}
